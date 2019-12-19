@@ -1,0 +1,11 @@
+{
+  "name": "api-creator",
+  "version": "0.1.0",
+  "description": "只需用特定格式维护API文档，即可使用本程序自动生成可调用返回Promise文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liboyang",
+  "license": "MIT"
+}

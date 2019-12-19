@@ -1,0 +1,98 @@
+{
+    "uploadPicture": {
+        "url": "/upload/uppic",
+        "method": "post",
+        "des": "上传图片",
+        "modules": "file"
+    },
+    "uploadVideo": {
+        "url": "/upload/upVideoConvertMp4",
+        "method": "post",
+        "des": "上传视频文件，服务会将视频文件转换成mp4格式",
+        "modules": "file"
+    },
+    "uploadAvatar": {
+        "url": "/upload/uphead",
+        "method": "post",
+        "des": "上传头像",
+        "modules": "file"
+    },
+    "uploadRealNameAuthentication": {
+        "url": "/upload/uprealname",
+        "method": "post",
+        "des": "上传实名认证",
+        "modules": "file"
+    },
+    "uploadFile": {
+        "url": "upload/upfile",
+        "method": "post",
+        "des": "上传文件",
+        "modules": "file"
+    },
+    "uploadVideoAndPoster": {
+        "url": "upload/get-video-img",
+        "method": "post",
+        "des": "上传视频并返回视频截图",
+        "modules": "file"
+    },
+    "uploadPictureUri": {
+        "url": "upload/uppicByUrl",
+        "method": "post",
+        "des": "上传网络图片",
+        "modules": "file"
+    },
+    "uploadMultiplePicture": {
+        "url": "upload/uplist",
+        "method": "post",
+        "des": "批量上传图片",
+        "modules": "file"
+    },
+    "editAdvertising": {
+        "url": "/enterprise/advertising/edit",
+        "method": "post",
+        "des": "修改企业广告信息",
+        "modules": "pclogic"
+    },
+    "addAdvertising": {
+        "url": "/enterprise/advertising/add",
+        "method": "post",
+        "des": "新增企业广告信息",
+        "modules": "pclogic"
+    },
+    "filterAdvertising": {
+        "url": "/enterprise/advertising/delete/filter",
+        "method": "post",
+        "des": "绿网过滤，删除广告",
+        "modules": "pclogic"
+    },
+    "onlineAdvertising": {
+        "url": "/enterprise/advertising/on-line",
+        "method": "post",
+        "des": "上线广告",
+        "modules": "pclogic"
+    },
+    "deleteAdvertising": {
+        "url": "/enterprise/advertising/delete",
+        "method": "post",
+        "des": "删除广告",
+        "modules": "pclogic"
+    },
+    "updateAdvertisingPicture": {
+        "url": "/enterprise/advertising/picture/update",
+        "method": "post",
+        "des": "修改广告图片",
+        "modules": "pclogic"
+    },
+    "offlineAdvertising": {
+        "url": "enterprise/advertising/off-line",
+        "method": "post",
+        "des": "下线广告",
+        "modules": "pclogic"
+    },
+    "getAdvertisingList": {
+        "url": "enterprise/advertising/list/get",
+        "method": "get",
+        "des": "获取广告列表(展示中、下线)",
+        "modules": "pclogic"
+    }
+}
